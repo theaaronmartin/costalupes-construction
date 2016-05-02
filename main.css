@@ -1,121 +1,43 @@
 body {
-  font-family: "Raleway", sans-serif;
-  background-color: #CCCCCC;
-  color: #0000FF;
-  /*background-image: url(http://static1.squarespace.com/static/518e6e75e4b078138645c67d/t/51d1ded9e4b02caa00420b4d/1431914973326/Lake-tahoe-sunrise-over-emerald-bay-with-clouds-photo.jpg);*/
+  /*padding-top: 25px;*/
+  /*background-color: #CCCCCC;*/
 }
 
+header {
+  background-color: #CCCCCC;
+}
 
 .logo {
-  /*max-height: 100px;*/
+  max-width: : 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 138px;
 }
+
+.info {
+  padding-top: 65px;
+  font-weight: bold;
+}
+
+/*.navbar-inverse {
+  font-size: 16px;
+}*/
 
 .navbar {
   font-size: 16px;
+  background-color: #CCCCCC;
+  border-color: #FFD700
 }
 
-/*.collapse {
-  margin-top: 40px;
-  background-color: #FFD700
+.glyphicon-chevron-down {
+  color: #888888;
 }
 
-.nav .navbar-nav .active {
-  color: #FFD700;
+.dropdown-menu {
+  background-color: #CCCCCC;
+  color: #FFFFFF;
+}
+
+.dropdown-menu a {
+  background-color: #CCCCCC;
+  color: #FFFFFF;
 }*/
-
-
-
-.navbar-default {
-  background-color: #ffd700;
-  border-color: #ffd700;
-}
-.navbar-default .navbar-brand {
-  font-weight: bold;
-  font-size: 22px;
-  color: #0054f7;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #0054f7;
-}
-.navbar-default .navbar-text {
-  color: #0054f7;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #0054f7;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #0054f7;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #ffd700;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #0054f7;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #0054f7;
-  background-color: #ffd700;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: #ffd700;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #0054f7;
-  background-color: #ffd700;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #0054f7;
-  background-color: #ffd700;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #0054f7;
-  background-color: #ffd700;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ffd700;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ffd700;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #0054f7;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #0054f7;
-}
-.navbar-default .navbar-link {
-  color: #0054f7;
-}
-.navbar-default .navbar-link:hover {
-  color: #0054f7;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #0054f7;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #0054f7;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #0054f7;
-    background-color: #ffd700;
-  }
-}
