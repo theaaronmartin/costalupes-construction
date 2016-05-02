@@ -1,6 +1,7 @@
 body {
   /*padding-top: 25px;*/
   /*background-color: #CCCCCC;*/
+  font-family: 'Ubuntu', sans-serif;
 }
 
 header {
@@ -10,12 +11,13 @@ header {
 .logo {
   max-width: : 100%;
   display: block;
-  margin-left: 138px;
+  margin-left: -25px;
 }
 
 .info {
   padding-top: 65px;
-  font-weight: bold;
+  padding-right: 40px;
+  /*font-weight: bold;*/
 }
 
 /*.navbar-inverse {
@@ -23,21 +25,96 @@ header {
 }*/
 
 .navbar {
-  font-size: 16px;
-  background-color: #CCCCCC;
-  border-color: #FFD700
+  /*font-size: 16px;*/
+  background-color: #000077;
+  border: solid #000077 2px;
+  /*border-color: #FFD700;*/
+  margin-bottom: 0px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-nav > a {
+  color: #ff0000;
+}
+
+.navbar .nav > li.active > a:hover,
+.navbar .nav > li > a:hover {
+  color: #FFD700;
+}
+
+.navbar .nav > li.active > a,
+.navbar .nav > li > a {
+  color: #E6E6E6;
+}
+
+.navbar .nav > li.active > a,
+.navbar .nav > li.active > a:hover {
+  color: #333333;
+  font-weight: bold;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .glyphicon-chevron-down {
-  color: #888888;
+  color: #FFD700;
+}
+
+.page-header {
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.page-header p {
+  font-size: 18px;
+}
+
+.page-header {
+  background-color: #DDDDDD;
+}
+
+span.glyphicon-tree-conifer,
+span.glyphicon-ok,
+span.glyphicon-home,
+span.glyphicon-piggy-bank {
+  font-size: 200%;
+}
+
+span.glyphicon-tree-conifer {
+  color: #000077;
+}
+
+span.glyphicon-ok,
+span.glyphicon-piggy-bank,
+span.glyphicon-home {
+  color: #FFD700;
+}
+
+/*span.glyphicon-home {
+  color: #000077;
+}*/
+
+.navbar .nav > li.dropdown.open.active > a:hover,
+.navbar .nav > li.dropdown.open > a
+{
+   color: #555555;
+   background-color: #E6E6E6;
+   border-color: #E6E6E6;
 }
 
 .dropdown-menu {
-  background-color: #CCCCCC;
-  color: #FFFFFF;
+  background-color: #E6E6E6;
+  color: #E6E6E6;
 }
 
 .dropdown-menu a {
-  background-color: #CCCCCC;
-  color: #FFFFFF;
-}*/
+  background-color: #E6E6E6;
+  color: #E6E6E6;
+}
