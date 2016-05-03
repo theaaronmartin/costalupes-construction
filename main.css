@@ -20,10 +20,6 @@ header {
   /*font-weight: bold;*/
 }
 
-/*.navbar-inverse {
-  font-size: 16px;
-}*/
-
 .navbar {
   /*font-size: 16px;*/
   background-color: #000077;
@@ -90,10 +86,19 @@ span.glyphicon-tree-conifer {
   color: #000077;
 }
 
+span.glyphicon-option-horizontal {
+  font-size: 200%;
+}
+
 i.fa-home,
 i.fa-wrench {
   font-size: 218%;
   color: #FFD700;
+}
+
+i.fa-gavel {
+  font-size: 200%;
+  color: #000077;
 }
 
 span.glyphicon-ok,
@@ -129,4 +134,16 @@ span.glyphicon-home {
 .dropdown-menu > .active > a:hover {
   background-color: #000077;
   color: #FFD700;
+}
+
+.page-header small {
+  color: #000077;
+}
+
+div > .hld {
+  margin-top: -28px;
+}
+
+.pull-up {
+  margin-top: -10px;
 }
