@@ -82,7 +82,6 @@ header {
 
 span.glyphicon-tree-conifer,
 span.glyphicon-ok,
-span.glyphicon-home,
 span.glyphicon-piggy-bank {
   font-size: 200%;
 }
@@ -91,11 +90,18 @@ span.glyphicon-tree-conifer {
   color: #000077;
 }
 
+i.fa-home,
+i.fa-wrench {
+  font-size: 218%;
+  color: #FFD700;
+}
+
 span.glyphicon-ok,
 span.glyphicon-piggy-bank,
 span.glyphicon-home {
   color: #FFD700;
 }
+
 
 /*span.glyphicon-home {
   color: #000077;
@@ -117,4 +123,10 @@ span.glyphicon-home {
 .dropdown-menu a {
   background-color: #E6E6E6;
   color: #E6E6E6;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover {
+  background-color: #000077;
+  color: #FFD700;
 }
