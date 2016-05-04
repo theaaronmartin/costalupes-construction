@@ -112,7 +112,7 @@ span.glyphicon-home {
   color: #000077;
 }*/
 
-.navbar .nav > li.dropdown.open.active > a:hover,
+/*.navbar .nav > li.dropdown.open.active > a:hover,
 .navbar .nav > li.dropdown.open > a
 {
    color: #555555;
@@ -134,16 +134,40 @@ span.glyphicon-home {
 .dropdown-menu > .active > a:hover {
   background-color: #000077;
   color: #FFD700;
-}
+}*/
 
 .page-header small {
   color: #000077;
 }
 
-div > .hld {
-  margin-top: -28px;
+.house {
+  margin-top: 60px;
 }
 
-.pull-up {
-  margin-top: -10px;
+.tab-pane {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.8em;
+  padding-top: 2em;
+  font-size: 14px
+}
+
+/*.tab-content {
+  background-color: #e3e3e3;
+}*/
+
+.nav-tabs > li.inactive a {
+  color: #000077;
+  font-size: 18px;
+}
+
+.nav-tabs > li.active a,
+.nav-tabs > li.active a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.nav-tabs p {
+
 }
