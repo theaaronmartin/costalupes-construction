@@ -41,7 +41,14 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li class="active"><a href="services.html">Services<span class="sr-only">(current)</span></a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" ariahaspop="true" aria-expanded="false">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="incline.html">Incline Village</a></li>
+                <li><a href="ntcc.html">North Tahoe Community Church</a></li>
+                <li><a href="galena.html">Lark Spur at Galena Creek</a></li>
+              </ul>
+            </li>
             <li><a href="links.html">Links</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -75,8 +82,18 @@
             <span class="visible-xs visible-sm">Green</span>
           </a>
         </li>
-        <li class="inactive" role="presentation"><a href="#excavation" data-toggle="tab">Excavation &amp; Demolition Contracting</a></li>
-        <li class="inactive" role="presentation"><a href="#snow" data-toggle="tab">Snow Removal (Residential, Business &amp; Construction Sites)</a></li>
+        <li class="inactive" role="presentation">
+          <a href="#excavation" data-toggle="tab">
+            <span class="hidden-xs hidden-sm">Excavation &amp; Demolition Contracting</span>
+            <span class="visible-xs visible-sm">Contracting</span>
+          </a>
+        </li>
+        <li class="inactive" role="presentation">
+          <a href="#snow" data-toggle="tab">
+            <span class="hidden-xs hidden-sm">Snow Removal (Residential, Business &amp; Construction Sites)</span>
+            <span class="visible-xs visible-sm">Snow Removal</span>
+          </a>
+        </li>
       </ul>
       <div class="tab-content">
         <div class="tab-pane fade active in" id="green-design">
