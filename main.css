@@ -165,6 +165,21 @@ span.glyphicon-home {
   margin-top: 60px;
 }
 
+.coc {
+  display: block;
+  margin: auto;
+}
+
+.ntcc {
+  display: block;
+  margin: auto;
+  padding-top: 2em;
+}
+
+#church {
+  padding-top: 5em;
+}
+
 .tab-pane {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
