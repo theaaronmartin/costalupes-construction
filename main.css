@@ -111,6 +111,15 @@ i.fa-gavel {
   color: #000077;
 }
 
+#wrench {
+  color: #000077;
+}
+
+i.ion-hammer {
+  color: #000077;
+  font-size: 210%;
+}
+
 span.glyphicon-ok,
 span.glyphicon-piggy-bank,
 span.glyphicon-home {
@@ -186,4 +195,28 @@ span.glyphicon-home {
 
 .carousel-inner > .item > img {
   margin: auto;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .glyphicon-chevron-right:hover,
+.carousel-control .glyphicon-chevron-right:focus {
+  color: #000077;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-left:hover,
+.carousel-control .glyphicon-chevron-left:focus {
+  color: #000077;
+}
+
+span.glyphicon.glyphicon-chevron-right {
+  color: #000077;
+}
+
+#contactInfo {
+  font-weight: bold;
 }
